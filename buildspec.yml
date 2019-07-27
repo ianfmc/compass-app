@@ -14,7 +14,7 @@ phases :
       # Upgrade AWS CLI to the latest version - pip install - upgrade awscli
       
   build : 
-    commands : - echo Build started on `date` - npm run prodbuild
+    commands : - echo Build started on `date` - npm run prod-build
       
       
   post_build : 
