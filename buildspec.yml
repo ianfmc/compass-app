@@ -2,6 +2,8 @@ Version : 0.2
 
 phases : 
   install : 
+    runtime-versions:
+      nodejs: 8
     commands : # Get Chrome information - curl - sS - o - https : //dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - - echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> / etc / apt / sources . list . d / google - chrome . list
        - apt - get - y update
        - apt - get - y install google - chrome - stable
@@ -18,4 +20,4 @@ phases :
     commands :
       # - npm run test
       # - npm run e2e
-      - aws s3 cp -recursive dist/compass-app/ s3://$S3_BUCKET/
+      - aws s3 cp --recursive dist/compass-app/ s3://$S3_BUCKET/
