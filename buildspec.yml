@@ -14,10 +14,10 @@ phases :
       # Upgrade AWS CLI to the latest version - pip install - upgrade awscli
       
   build : 
-    commands : - npm run prod
+    commands : 
+      - npm run prod
       
       
   post_build : 
-    commands : - echo test started `date` - npm test
-       - npm run e2e
-       - aws s3 cp - recursive dist / angularcloudproject / s3 : // $ S3_BUCKET / --grants read = uri = http: //acs.amazonaws .com / groups / global / All Users
+    commands :
+      - aws s3 cp - recursive dist / angularcloudproject / s3 : // $ S3_BUCKET / --grants read = uri = http: //acs.amazonaws .com / groups / global / All Users
