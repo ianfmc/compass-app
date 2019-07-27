@@ -27,6 +27,15 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['Chrome'],
     singleRun: false,
-    restartOnFileChange: true
+    restartOnFileChange: true,
+    customLaunchers : { HeadlessChrome : { base : 'ChromeHeadless' , 
+      flags : [ '--no-sandbox' , '--headless' , '-disable GPU' , '--remote debugging port = 9222' ] } , 
+    },
+    capabilities : { 
+      name : 'chrome' , 
+      options : { 
+        args : [ '--headless' , '-disable GPU' , '--window-size = 800x600' , '-disable-dev-shm-usage' ] 
+      }
+    }  
   });
 };
