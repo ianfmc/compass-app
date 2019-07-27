@@ -17,7 +17,6 @@ phases :
     commands : 
       - npm run prod
       
-      
   post_build : 
     commands :
       - aws s3 cp - recursive dist / angularcloudproject / s3 : // $ S3_BUCKET / --grants read = uri = http: //acs.amazonaws .com / groups / global / All Users
