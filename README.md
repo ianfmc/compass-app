@@ -1,6 +1,6 @@
 # CompassApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2 on 21 July 2019
 
 ## Development server
 
