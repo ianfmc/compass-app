@@ -3,3 +3,9 @@ h1 {
     font-size: 60;
     text-align: right;
 }
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24;
+    text-align: right;    
+}
