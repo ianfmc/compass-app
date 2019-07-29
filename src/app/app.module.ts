@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LoginComponent } from './components/login/login.component';
 import { MainComponent } from './components/main/main.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { FinancialComponent } from './components/financial/financial.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SideMenuComponent } from './components/side-menu/side-menu.component';
     HeaderComponent,
     LoginComponent,
     MainComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    FinancialComponent
   ],
   imports: [
     BrowserModule,
