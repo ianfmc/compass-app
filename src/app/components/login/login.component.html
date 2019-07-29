@@ -1,0 +1,15 @@
+<form class="form-signin" (ngSubmit)="onLogin()">
+    <h2 class="h3 mb-4 font-weight-normal">Please sign in</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" name="user" [(ngModel)]="user" placeholder="Email address" required
+        autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" name="password" [(ngModel)]="password" placeholder="Password" required>
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me" class="text-muted"> Remember me
+        </label>
+    </div>
+    <input type="input" class="btn btn-dark" value="Login">
+    <p class="mt-5 mb-4 text-muted">Compass Charter Management System &copy;2019</p>
+</form>
