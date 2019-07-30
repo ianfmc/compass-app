@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { FinancialComponent } from '../financial/financial.component';
 import { CustomerComponent } from '../customer/customer.component';
+import { MaintenanceComponent } from '../maintenance/maintenance.component'
+import { ReservationsComponent } from '../reservations/reservations.component';
 
 @Component({
   selector: 'app-main',

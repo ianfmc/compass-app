@@ -10,6 +10,8 @@ import { MainComponent } from './components/main/main.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { FinancialComponent } from './components/financial/financial.component';
 import { CustomerComponent } from './components/customer/customer.component';
+import { MaintenanceComponent } from './components/maintenance/maintenance.component';
+import { ReservationsComponent } from './components/reservations/reservations.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CustomerComponent } from './components/customer/customer.component';
     MainComponent,
     SideMenuComponent,
     FinancialComponent,
-    CustomerComponent
+    CustomerComponent,
+    MaintenanceComponent,
+    ReservationsComponent
   ],
   imports: [
     BrowserModule,
