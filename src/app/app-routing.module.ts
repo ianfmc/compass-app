@@ -7,6 +7,7 @@ import { FinancialComponent } from './components/financial/financial.component';
 import { CustomerComponent } from './components/customer/customer.component';
 import { MaintenanceComponent } from './components/maintenance/maintenance.component';
 import { ReservationsComponent } from './components/reservations/reservations.component';
+import { FleetComponent } from './components/fleet/fleet.component';
 
 const routes: Routes = [
   {path: '', component: LoginComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
     { path: 'financial', component: FinancialComponent },
     { path: 'customer', component: CustomerComponent },
     { path: 'maintenance', component: MaintenanceComponent },
-    { path: 'reservations', component: ReservationsComponent }
+    { path: 'reservations', component: ReservationsComponent },
+    { path: 'fleet', component: FleetComponent }
   ]}
 ];
 

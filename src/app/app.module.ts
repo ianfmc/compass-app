@@ -12,6 +12,7 @@ import { FinancialComponent } from './components/financial/financial.component';
 import { CustomerComponent } from './components/customer/customer.component';
 import { MaintenanceComponent } from './components/maintenance/maintenance.component';
 import { ReservationsComponent } from './components/reservations/reservations.component';
+import { FleetComponent } from './components/fleet/fleet.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ReservationsComponent } from './components/reservations/reservations.co
     FinancialComponent,
     CustomerComponent,
     MaintenanceComponent,
-    ReservationsComponent
+    ReservationsComponent,
+    FleetComponent
   ],
   imports: [
     BrowserModule,
