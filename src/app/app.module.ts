@@ -9,6 +9,7 @@ import { LoginComponent } from './components/login/login.component';
 import { MainComponent } from './components/main/main.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { FinancialComponent } from './components/financial/financial.component';
+import { CustomerComponent } from './components/customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FinancialComponent } from './components/financial/financial.component';
     LoginComponent,
     MainComponent,
     SideMenuComponent,
-    FinancialComponent
+    FinancialComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
