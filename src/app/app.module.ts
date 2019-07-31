@@ -15,6 +15,7 @@ import { ReservationsComponent } from './components/reservations/reservations.co
 import { FleetComponent } from './components/fleet/fleet.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule, MatPaginatorModule, MatProgressSpinnerModule, MatSortModule, MatTableModule } from '@angular/material';
+import { MDBBootstrapModule } from 'angular-bootstrap-md'
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MatInputModule, MatPaginatorModule, MatProgressSpinnerModule, MatSortMo
     MatPaginatorModule,
     MatProgressSpinnerModule,
     MatSortModule,
-    MatTableModule
+    MatTableModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
