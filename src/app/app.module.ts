@@ -13,6 +13,8 @@ import { CustomerComponent } from './components/customer/customer.component';
 import { MaintenanceComponent } from './components/maintenance/maintenance.component';
 import { ReservationsComponent } from './components/reservations/reservations.component';
 import { FleetComponent } from './components/fleet/fleet.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule, MatPaginatorModule, MatProgressSpinnerModule, MatSortModule, MatTableModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,13 @@ import { FleetComponent } from './components/fleet/fleet.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatSortModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
