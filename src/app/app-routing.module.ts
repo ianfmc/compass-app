@@ -12,7 +12,7 @@ import { FleetComponent } from './components/fleet/fleet.component';
 const routes: Routes = [
   {path: '', component: LoginComponent },
   {path: 'main', component: MainComponent, children: [
-    { path: '', component: FinancialComponent },
+    { path: '', component: FleetComponent },
     { path: 'financial', component: FinancialComponent },
     { path: 'customer', component: CustomerComponent },
     { path: 'maintenance', component: MaintenanceComponent },
